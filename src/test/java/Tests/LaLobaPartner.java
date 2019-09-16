@@ -4,6 +4,7 @@ import Constants.EndPoints;
 import DataProvider.ProfilesDataProvider;
 import Profile_model.Profile;
 import Profile_model.ProfileModel;
+import Profile_model.ProfilesIdToRewrite;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
@@ -11,7 +12,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import Utilities.Utilities;
 import org.testng.annotations.Test;
-
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -27,6 +27,7 @@ public class LaLobaPartner {
     String partnerId = "1540";
     String partnerName = "LA LOBA";
     String lastCratedProfileId = "";
+    String firstCratedProfileId = "";
 
     RequestSpecification reqSpec;
     ResponseSpecification resSpec;
@@ -82,31 +83,6 @@ public class LaLobaPartner {
                 .spec(resSpec)
                 .and()
                 .body("result.profiles.name", hasItems("Bez limitów", "premium"));
-    }
-
-
-    @Test(dependsOnMethods = "get_partner_by_id")
-    public void get_last_created_profileId() {
-        Response response =
-                given()
-                        .spec(reqSpec)
-                        .when()
-                        .get(EndPoints.PROFILES_LIST_SHORT)
-                        .then()
-                        .spec(resSpec)
-                        .and()
-                        .extract().response();
-
-        Map<String, String> hashMap = response.jsonPath().getMap("result.data");
-        System.out.println(hashMap.values());
-
-
-        TreeMap<String, String> treeMap = new TreeMap<String, String>();
-        treeMap.putAll(hashMap);
-
-        lastCratedProfileId = treeMap.lastKey();
-        System.out.println(lastCratedProfileId);
-
     }
 
 
@@ -197,22 +173,68 @@ public class LaLobaPartner {
                 .spec(resSpec);
     }
 
-    @Test(dependsOnMethods = {"get_partner_by_id"})
+    @Test(dependsOnMethods = {"get_partner_by_id", "get_last_created_profileId", "get_first_created_profileId"})
     public void rewrite_users_from_profile() {
-        {
-
-        }
+        ProfilesIdToRewrite profilesIdToRewrite = new ProfilesIdToRewrite();
+        profilesIdToRewrite.setTo(firstCratedProfileId);
+        profilesIdToRewrite.setFrom(lastCratedProfileId);
 
 
         given()
                 .spec(reqSpec)
-                .body()
+                .body(profilesIdToRewrite)
                 .log().body()
                 .when()
-                .post(EndPoints.EDIT_PROFILE)
+                .post(EndPoints.REWRITE_USERS_FROM_PROFILE)
                 .then()
                 .log().all()
                 .spec(resSpec);
+    }
+
+    @Test(dependsOnMethods = "get_partner_by_id")
+    public void get_last_created_profileId() {
+        Response response =
+                given()
+                        .spec(reqSpec)
+                        .when()
+                        .get(EndPoints.PROFILES_LIST_SHORT)
+                        .then()
+                        .spec(resSpec)
+                        .and()
+                        .extract().response();
+
+        Map<String, String> hashMap = response.jsonPath().getMap("result.data");
+        System.out.println(hashMap.values());
+
+
+        TreeMap<String, String> treeMap = new TreeMap<String, String>();
+        treeMap.putAll(hashMap);
+
+        lastCratedProfileId = treeMap.lastKey();
+        System.out.println(lastCratedProfileId);
+    }
+
+    @Test(dependsOnMethods = "get_partner_by_id")
+    public void get_first_created_profileId() {
+        Response response =
+                given()
+                        .spec(reqSpec)
+                        .when()
+                        .get(EndPoints.PROFILES_LIST_SHORT)
+                        .then()
+                        .spec(resSpec)
+                        .and()
+                        .extract().response();
+
+        Map<String, String> hashMap = response.jsonPath().getMap("result.data");
+        System.out.println(hashMap.values());
+
+
+        TreeMap<String, String> treeMap = new TreeMap<String, String>();
+        treeMap.putAll(hashMap);
+
+        firstCratedProfileId = treeMap.firstKey();
+        System.out.println(firstCratedProfileId);
     }
 }
 
