@@ -13,19 +13,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EndPoints.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EndPoints.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Constants/EndPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LaLobaPartner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LaLobaPartner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LaLobaPartner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="216">
               <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,9 +81,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Profile_model/ProfileModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/Profile_model/Profile.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataProvider/ProfilesDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Constants/EndPoints.java" />
         <option value="$PROJECT_DIR$/src/test/java/Profile_model/ProfilesIdToRewrite.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/LaLobaPartner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Constants/EndPoints.java" />
       </list>
     </option>
   </component>
@@ -454,7 +454,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1914" y="61" width="1821" height="949" extended-state="1" />
+    <frame x="1914" y="61" width="1821" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -826,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Constants/EndPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -845,13 +838,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LaLobaPartner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="216">
           <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7791#7807#0" expanded="true" />
             <element signature="e#7794#7810#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Constants/EndPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
