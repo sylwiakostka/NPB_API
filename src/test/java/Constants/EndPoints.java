@@ -10,6 +10,7 @@ public class EndPoints {
     public static final String ADD_PROFILE = "/profiles/add";
     public static final String EDIT_PROFILE = "/profiles/edit";
     public static final String REWRITE_USERS_FROM_PROFILE = "/profiles/rewrite";
+    public static final String DELETE_PROFILE = "/profiles//delete/{profileId}";
 
 
 
