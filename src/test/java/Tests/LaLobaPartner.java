@@ -2,16 +2,16 @@ package Tests;
 
 import Constants.EndPoints;
 import DataProvider.ProfilesDataProvider;
-import Profile_model.Profile;
-import Profile_model.ProfileModel;
-import Profile_model.ProfilesIdToRewrite;
+import Profile_model.*;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import Utilities.Utilities;
 import org.testng.annotations.Test;
+
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -26,7 +26,7 @@ import static org.hamcrest.collection.IsEmptyCollection.empty;
 public class LaLobaPartner {
     String partnerId = "1540";
     String partnerName = "LA LOBA";
-    String lastCratedProfileId = "";
+    String lastCratedProfileId = null;
     String firstCratedProfileId = "";
 
     RequestSpecification reqSpec;
@@ -236,6 +236,63 @@ public class LaLobaPartner {
         firstCratedProfileId = treeMap.firstKey();
         System.out.println(firstCratedProfileId);
     }
+
+    @Test(dependsOnMethods = {"get_partner_by_id", "get_last_created_profileId"})
+    public void delete_profile() {
+
+        int profileId_to_delete = Integer.parseInt(lastCratedProfileId);
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("id", profileId_to_delete);
+
+        given()
+                .spec(reqSpec)
+                .body(requestBody.toString())
+                .when()
+                .post(EndPoints.DELETE_PROFILE)
+                .then()
+                .log().all()
+                .spec(resSpec);
+    }
+
+    @Test(dependsOnMethods = {"get_partner_by_id"}, dataProvider = "AddOffice", dataProviderClass = ProfilesDataProvider.class)
+    public void add_office(String name, String street, String city, String buildingNumber, String postcode, String comment, String lat, String lon, Object id, Object addressId) {
+        Office office = new Office();
+        office.setName(name);
+        office.setStreet(street);
+        office.setCity(city);
+        office.setBuildingNumber(buildingNumber);
+        office.setPostcode(postcode);
+        office.setComment(comment);
+        office.setLat(lat);
+        office.setLat(lon);
+        office.setId(id);
+        office.setAddressId(addressId);
+
+        Offices offices = new Offices();
+        offices.setOffice(office);
+
+        given()
+                .spec(reqSpec)
+                .when()
+                .get(EndPoints.ADD_OFFICES)
+                .then()
+                .log().all();
+//                .spec(resSpec);
+    }
+
+
+    @Test(dependsOnMethods = {"get_partner_by_id"})
+    public void get_offices() {
+        given()
+                .spec(reqSpec)
+                .when()
+                .get(EndPoints.GET_OFFICES)
+                .then()
+                .log().all()
+                .spec(resSpec);
+    }
+
+
 }
 
 

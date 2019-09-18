@@ -17,5 +17,10 @@ public class ProfilesDataProvider {
         return (testObjArray);
     }
 
+    @DataProvider(name="AddOffice")
+    public Object[][] dataToAddOffice() throws Exception{
+        Object[][] testObjArray = ReadExcel.getData("C://Users//user//Desktop//NPB_API//src//test//java//Excels//offices.xlsx", "Dodawanie nowej siedziby");
+        return (testObjArray);
+    }
 
 }
