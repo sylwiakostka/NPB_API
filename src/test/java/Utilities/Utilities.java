@@ -32,10 +32,6 @@ public class Utilities {
     public static ResponseSpecification RESPONSE_SPEC;
 
 
-    public static void setEndPoint(String epoint) {
-        ENDPOINT = epoint;
-    }
-
     public static String getAccessToken() {
 
         Map<String, String> requestBody = new HashMap<String, String>();

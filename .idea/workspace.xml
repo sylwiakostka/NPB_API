@@ -16,8 +16,8 @@
       <file leaf-file-name="EndPoints.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Constants/EndPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -25,13 +25,20 @@
       <file leaf-file-name="LaLobaPartner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LaLobaPartner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="260" column="33" lean-forward="true" selection-start-line="260" selection-start-column="33" selection-end-line="260" selection-end-column="33" />
+            <state relative-caret-position="639">
+              <caret line="300" selection-start-line="300" selection-end-line="300" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7791#7807#0" expanded="true" />
-                <element signature="e#7794#7810#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Utilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -39,8 +46,8 @@
       <file leaf-file-name="Office.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/Office.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="952">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
               <folding>
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
@@ -52,8 +59,8 @@
       <file leaf-file-name="ProfilesDataProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/ProfilesDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +84,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Login.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Basic_Features.java" />
         <option value="$PROJECT_DIR$/src/test/java/Constants/Paths.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/Loging.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/Utilities.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Models/Profile.java" />
@@ -99,14 +104,16 @@
         <option value="$PROJECT_DIR$/src/test/java/DataProvider/ProfilesDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/LaLobaPartner.java" />
         <option value="$PROJECT_DIR$/src/test/java/Profile_model/Office.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Utilities.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1919" />
-    <option name="y" value="79" />
-    <option name="width" value="1821" />
-    <option name="height" value="988" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1911" />
+    <option name="y" value="78" />
+    <option name="width" value="1945" />
+    <option name="height" value="882" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -114,8 +121,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,6 +132,12 @@
               <item name="NPB_API" type="b2602c69:ProjectViewProjectNode" />
               <item name="NPB_API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPB_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPB_API" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NPB_API" type="b2602c69:ProjectViewProjectNode" />
@@ -155,30 +166,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataProvider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NPB_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NPB_API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Excels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NPB_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NPB_API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile_model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NPB_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NPB_API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,10 +180,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NPB-API" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -220,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LaLobaPartner.add_office">
+  <component name="RunManager" selected="TestNG.LaLobaPartner">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -240,6 +229,35 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="LaLobaPartner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NPB_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LaLobaPartner" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="LaLobaPartner.add_office" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NPB_API" />
       <extension name="coverage">
@@ -254,35 +272,6 @@
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.LaLobaPartner" />
       <option name="METHOD_NAME" value="add_office" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="LaLobaPartner.add_profile" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NPB_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.LaLobaPartner" />
-      <option name="METHOD_NAME" value="add_profile" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -408,19 +397,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.LaLobaPartner.add_profile" />
       <item itemvalue="TestNG.LaLobaPartner.rewrite_users_from_profile" />
       <item itemvalue="TestNG.LaLobaPartner.delete_profile" />
       <item itemvalue="TestNG.LaLobaPartner.get_offices" />
       <item itemvalue="TestNG.LaLobaPartner.add_office" />
+      <item itemvalue="TestNG.LaLobaPartner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LaLobaPartner" />
         <item itemvalue="TestNG.LaLobaPartner.add_office" />
         <item itemvalue="TestNG.LaLobaPartner.delete_profile" />
         <item itemvalue="TestNG.LaLobaPartner.get_offices" />
         <item itemvalue="TestNG.LaLobaPartner.rewrite_users_from_profile" />
-        <item itemvalue="TestNG.LaLobaPartner.add_profile" />
       </list>
     </recent_temporary>
   </component>
@@ -438,15 +427,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LaLobaPartner_get_offices - 2019.09.17 at 14h 52m 54s.xml">
-      <configuration name="LaLobaPartner.get_offices" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LaLobaPartner_delete_profile - 2019.09.17 at 15h 19m 46s.xml">
-      <configuration name="LaLobaPartner.delete_profile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LaLobaPartner_delete_profile - 2019.09.17 at 15h 21m 56s.xml">
-      <configuration name="LaLobaPartner.delete_profile" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LaLobaPartner_delete_profile - 2019.09.17 at 15h 24m 53s.xml">
       <configuration name="LaLobaPartner.delete_profile" configurationId="TestNG" />
     </history-entry>
@@ -468,24 +448,33 @@
     <history-entry file="LaLobaPartner_add_office - 2019.09.17 at 15h 48m 02s.xml">
       <configuration name="LaLobaPartner.add_office" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LaLobaPartner_add_office - 2019.10.07 at 16h 40m 50s.xml">
+      <configuration name="LaLobaPartner.add_office" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LaLobaPartner - 2019.10.07 at 16h 44m 25s.xml">
+      <configuration name="LaLobaPartner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LaLobaPartner - 2019.10.07 at 16h 44m 48s.xml">
+      <configuration name="LaLobaPartner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="79" width="1821" height="988" extended-state="0" />
+    <frame x="1911" y="78" width="1945" height="882" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49757868" weight="0.26118502" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.08716707" side_tool="true" weight="0.4665127" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9128329" weight="0.38573155" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9128329" weight="0.36099586" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31232256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3331565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -494,6 +483,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974618" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49757868" weight="0.26067746" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -514,6 +504,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/ProfilesDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LaLobaPartner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="260" column="33" lean-forward="true" selection-start-line="260" selection-start-column="33" selection-end-line="260" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Constants/EndPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -525,9 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,8 +544,6 @@
           <caret line="202" selection-start-line="202" selection-end-line="202" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7791#7807#0" expanded="true" />
-            <element signature="e#7794#7810#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,9 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,9 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,8 +599,6 @@
           <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7791#7807#0" expanded="true" />
-            <element signature="e#7794#7810#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -619,8 +616,6 @@
           <caret line="121" column="52" lean-forward="true" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7791#7807#0" expanded="true" />
-            <element signature="e#7794#7810#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -629,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,9 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,8 +665,6 @@
           <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7791#7807#0" expanded="true" />
-            <element signature="e#7794#7810#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -686,9 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,8 +689,6 @@
           <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7791#7807#0" expanded="true" />
-            <element signature="e#7794#7810#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -715,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,8 +713,6 @@
           <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7791#7807#0" expanded="true" />
-            <element signature="e#7794#7810#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Login.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Basic_Features.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/OneProfile.java" />
@@ -805,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,16 +789,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/Offices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/ProfilesDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/Office.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="125" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -842,76 +841,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/Offices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Constants/EndPoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/Profile.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
-          <folding>
-            <element signature="e#2557#2558#0" expanded="true" />
-            <element signature="e#2585#2586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/ProfilesDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Profile_model/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LaLobaPartner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="260" column="33" lean-forward="true" selection-start-line="260" selection-start-column="33" selection-end-line="260" selection-end-column="33" />
+        <state relative-caret-position="639">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7791#7807#0" expanded="true" />
-            <element signature="e#7794#7810#0" expanded="true" />
           </folding>
         </state>
       </provider>
